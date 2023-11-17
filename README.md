@@ -19,5 +19,5 @@ Then image is found it starts clicking A button using virtual controller in rand
 	- To pause/unpause script hold/press 2.
 
 ### Miscellaneous
-- Script will/might not work for different resolutions. If it does not work try updating "cont.png"with your own screenshot.
+- Script will/might not work for different resolutions. If it does not work try updating "cont.png" with your own screenshot.
 - I use this script and did not get banned but still use it at rou own risk.
