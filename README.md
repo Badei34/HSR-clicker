@@ -8,7 +8,7 @@ Scripts searches for image in bottom right corner.
 
 Then image is found it starts clicking A button using virtual controller in random time intervals.
 
-###How to use
+### How to use
 
 - Install python.
 - Install required packages:
