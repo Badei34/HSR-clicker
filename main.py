@@ -44,16 +44,20 @@ while True:
         print("Script unpaused.")
         sleep(2)
     
-    elif pgui.locateOnScreen("cont.png", confidence=0.8):
+    try:
+        pgui.locateOnScreen("cont.png", confidence=0.8)
         print("In dialogue.")
         in_dialogue = True
         
         while in_dialogue: # If in dialogue continue clicking
-            if pgui.locateOnScreen("cont.png", confidence=0.8):
+            try:
+                pgui.locateOnScreen("cont.png", confidence=0.8)
                 print("Clicking")
                 press_xbox()
                 wait()
-            else: # If not in dialogue exit clicking loop and continue searching
+            except: # If not in dialogue exit clicking loop and continue searching
                 print("Not in dialogue.")
                 in_dialogue = False
     
+    except:
+        print("Searching and waiting...")
