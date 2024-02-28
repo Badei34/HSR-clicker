@@ -8,7 +8,7 @@ Scripts searches for image in bottom right corner.
 
 Then image is found it starts clicking A button using virtual controller in random time intervals.
 
-###How to use
+### How to use
 
 - Install python.
 - Install required packages:
@@ -20,4 +20,4 @@ Then image is found it starts clicking A button using virtual controller in rand
 
 ### Miscellaneous
 - Script will/might not work for different resolutions. If it does not work try updating "cont.png" with your own screenshot.
-- I use this script and did not get banned but still use it at rou own risk.
+- I use this script and did not get banned but still use it at your own risk.
